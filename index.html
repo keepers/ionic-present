@@ -5,7 +5,7 @@
     <!-- Presentation created using reveal.js: https://github.com/hakimel/reveal.js -->
     <!-- Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se -->
 
-    <title>Presentacion Ionic</title>
+    <title>Presentación Ionic</title>
 
     <meta name="description" content="Ionic Framework Presentation: The beautiful, open source framework for developing hybrid mobile apps with HTML5.">
     <meta name="author" content="https://twitter.com/adamdbradley">
@@ -27,16 +27,6 @@
       document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
     </script>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-44023830-1', 'ionicframework.com');
-      ga('send', 'pageview');
-
-    </script>
   </head>
 
   <body>
@@ -46,24 +36,29 @@
       <div class="slides">
 
 
-        <section>
-          <img src="img/ionic-logo.png" class="logo" width="296" height="331">
-          <h4>The beautiful, open source framework for developing hybrid mobile apps with HTML5.</h4>
+        <section data-background="#fff">
+          <img src="img/ionicarglogo.png" class="logo" width="400" height="400">
           <h5 class="framework-url">
-            <a href="http://ionicframework.com/" target="_blank">ionicframework.com</a>
+            <a style="color: #4D84E0;" href="https://twitter.com/Ionicframework" target="_blank">@IonicFramework</a>
+            <a style="color: #4D84E0;" href="https://twitter.com/IonicArgentina" target="_blank">@IonicArgentina</a>
           </h5>
         </section>
 
 
         <section>
-          <blockquote>
-            &ldquo;So you want to build a native app?&rdquo;
-          </blockquote>
+          <h3>Quién soy?</h3>
+          <p><a href="https://github.com/matiastucci" target="_blank">github.com/matiastucci</a></p>
+          <a href="https://twitter.com/TucciMatias" target="_blank">@TucciMatias</a>
+        </section>
+
+        <section>
+          <h2>Por qué Phonegap/Cordova?</h2>
+          
         </section>
 
 
         <section>
-          <h3>More Platforms. More Problems.</h3>
+          <h3>Más Plataformas. Más Problemas.</h3>
           <p style="margin-top: 60px">
             <img src="img/apple.png" class="logo" width="210" height="210" style="margin-right: 15px">
             <img src="img/android.png" class="logo" width="210" height="210" style="margin-left: 15px; margin-right: 15px">
@@ -71,79 +66,47 @@
             <img src="img/firefoxos.png" class="logo" width="210" height="210" style="margin-left: 15px;">
           </p>
           <p><span class="light-text">
-            Why are we still coding for multiple platforms?
+            Por qué seguimos programando para multiples plataformas?
           </span></p>
         </section>
 
-
         <section>
-          <h2>The Downsides of Native</h2>
-          <ul>
-            <li>Proficiency in each platform required</li>
-            <li>Entirely separate code bases</li>
-            <li>Timely &amp; expensive development</li>
-            <li>Diminishing returns</li>
-          </ul>
+          <img src="img/comparacion.jpg" class="logo" width="650" height="648">
         </section>
 
-
         <section>
-          <blockquote>
-            &ldquo;Is there an alternative?&rdquo;
-          </blockquote>
-        </section>
-
-
-        <section>
-          <h2>Hybrid Apps!</h2>
-          <ul>
-            <li>HTML5 that acts like native</li>
-            <li>Web wrapped in native layer</li>
-            <li>Direct access to native APIs</li>
-            <li>Cordova/Phonegap</li>
-            <li>Familiar web dev environment</li>
-          </ul>
-        </section>
-
-
-        <section>
-          <h2>It's Not 2007 Anymore</h2>
-          <p><span class="light-text">Mobile devices have rapidly improved!</span></p>
-        </section>
-
-
-        <section>
-          <h2>So What Do We Need?</h2>
-          <ul>
-            <li>An Open Source Framework</li>
-            <li>Help bridging the gap between web and native</li>
-            <li>Rich, native-style UI components and interactions</li>
-            <li>UI APIs, not just jQuery widgets</li>
-            <li>A dedicated, community-driven spirit</li>
-          </ul>
-        </section>
-
-
-        <section>
-          <img src="img/ionic-logo.png" class="logo" width="296" height="331">
-          <blockquote>
-            &ldquo;Hello.&rdquo;
-          </blockquote>
-        </section>
-
-
-        <section>
-          <h2>Web Technologies You Already Know and Love</h2>
+          <h3>Nos sentimos cómodos</h3>
           <div style="margin-top: 70px">
             <img src="img/html.png" class="logo" width="185" height="260">
             <img src="img/css.png" class="logo" width="185" height="260" style="margin-left: 80px; margin-right: 80px;">
             <img src="img/js.png" class="logo" width="185" height="260">
           </div>
-          <p style="margin-top: 30px"><span class="light-text">
-            (You'll feel right at home)
-          </span></p>
         </section>
 
+        <section>
+          <blockquote style="position:relative"><span style="z-index:-1;position:absolute;left:-80px;top:40px;font-size:600%;color:#fff;">&ldquo;</span>PhoneGap drastically lowers the bar when it comes to knowledge required to build a cross-platform mobile application. As a side affect of this, the number of novice developers building mobile applications has increased dramatically.
+          <br><br>
+          Just because PhoneGap lowers the bar doesn't mean it removes it completely.<span style="z-index:-1;position:absolute;right:-60px;bottom:-70px;font-size:600%;color:#fff;">&rdquo;</span>
+          </blockquote>
+          <p>&nbsp;</p>
+          <p>- Brock Whitten</p>
+        </section>
+
+        <section>
+          <h3>Ventajas de apps Híbridas</h3>
+          <ul>
+            <li><a href="http://devgeeks.org/slides/phonegapdoesntsuck/" target="_blank">Phonegap doesn't suck, you suck</a></li>
+            <li>Código fuente único</li>
+            <li>Menor tiempo de desarrollo</li>
+            <li>Más baratas</li>
+            <li>Ya no es 2007, dispositivos más potentes</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Por qué Ionic?</h2>
+          <img src="img/ionic-logo.png" class="logo" width="373" height="371">
+        </section>
 
         <section>
           <img src="img/angular-icon.png" class="logo" width="210" height="210" style="margin-bottom: 0px">
@@ -496,6 +459,7 @@ $ionicActionSheet.show({
         progress: true,
         history: true,
         center: true,
+        slideNumber: true,
 
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
         transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
