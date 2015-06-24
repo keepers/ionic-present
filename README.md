@@ -1,15 +1,6 @@
-Present Ionic Framework
+Presentación Ionic Framework
 =============
 
-[Start the presentation](http://ionicframework.com/present-ionic/slides/)
+Presentación hecha para la primer [Meetup de Ionic Argentina](http://www.meetup.com/Ionic-Argentina/). Llevada a cabo en Hexacta. [Leer más](http://www.hexacta.com/2014/12/12/speaking-of-ionic-framework-expert-talks-in-hexacta/)
 
-Additionally, please feel free to use this presentation as a starting point and make it your own.
-
- - [Learn Ionic](http://learn.ionicframework.com/)
- - [Forum](http://forum.ionicframework.com/)
- - [Demos](http://codepen.io/ionic/public-list/)
- - [Blog](http://ionicframework.com/blog/)
- - [Newsletter](http://ionicframework.com/subscribe/)
- - [@Ionicframework](https://twitter.com/ionicframework)
- - [Present Ionic Homepage](http://ionicframework.com/present-ionic/)
- - [Documentation](http://ionicframework.com/docs/)
+[Ver la presentación](http://keepe.rs/projects/ionic-presentation)
